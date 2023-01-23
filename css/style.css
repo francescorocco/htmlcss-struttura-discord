@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole di debug */
+
+.debug .header-top{
+    background-color: #ACD7E5;
+}
+
+.debug .header-top .container div{
+    background-color: #D9A426;
+    border: 1px dotted black;
+}
+
+
+/* regole di css */
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.container-flex{
+    display: flex;
+}
+
+.header-top .container-flex{
+    justify-content: space-between;
+}
+
+.header-top .container {
+    padding: 10px;
+}
+
+.header-logo{
+    flex-grow: 1;
+}
+
+.header-nav{
+    flex-grow: 2;
+}
+
+.header-login{
+    flex-grow: 1;
+}
