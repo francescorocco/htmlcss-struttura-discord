@@ -26,6 +26,30 @@
     border: 2px dotted black;
 }
 
+.debug .section-1{
+    background-color: #cccccc;
+}
+
+.debug .section-2{
+    background-color: #5a5a5a;
+}
+
+.debug .section-img{
+    background-color: #2390FD;
+    border: 2px dotted black;
+}
+
+.debug .section-text{
+    background-color: #FFBFCA;
+    border: 2px dotted black;
+}
+
+.debug .closing-text{
+    height: 400px;
+    width: 100%;
+    background-color: #1F8A25;
+    border: 2px dotted black;
+}
 
 
 /* regole di css */
@@ -48,19 +72,37 @@
 }
 
 .header-logo{
-    flex-grow: 1;
+    width: 20%;
 }
 
 .header-nav{
-    flex-grow: 2;
+    width: 60%;
+    text-align: center;
 }
 
 .header-login{
-    flex-grow: 1;
+    width: 20%;
+    text-align: end;
 }
 
 .header-bottom .container-flex{
     justify-content: center;
     align-items: center;
     padding: 25px;
+}
+
+.section-1, .section-2{
+    padding: 20px 0px;
+}
+
+
+.section-img{
+    width: 60%;
+    height: 300px;
+}
+
+.section-text{
+    width: 40%;
+    height: 300px;
+
 }
