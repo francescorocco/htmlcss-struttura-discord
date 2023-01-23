@@ -51,6 +51,32 @@
     border: 2px dotted black;
 }
 
+.debug .big-text{
+    height: 300px;
+    background-color: #EF7F7F;
+    border: 2px dotted black;
+}
+
+.debug .small-text{
+    background-color: #1FB1A9;
+    height: 300px;
+    border: 2px dotted white;
+}
+
+.debug .logo-text{
+    background-color:  #EF7F7F;
+    border: 2px dotted black;
+}
+
+.debug .button-text{
+    background-color:  #EF7F7F;
+    border: 2px dotted black;
+
+}
+
+.debug .footer-bottom .container{
+    background-color: #7EFED4;
+}
 
 /* regole di css */
 
@@ -104,5 +130,31 @@
 .section-text{
     width: 40%;
     height: 300px;
+}
 
+footer{
+    background-color: #222629;
+    padding: 10px
+}
+
+.big-text{
+    width: 30%;
+}
+
+.small-text{
+    width: 20%;
+}
+
+hr{
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
+.footer-top hr{
+    margin: 20px;
+}
+
+.footer-bottom .container-flex{
+    justify-content: space-between;
 }
